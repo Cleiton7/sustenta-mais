@@ -1,0 +1,27 @@
+/* Seção devs (body) da pagina Sobre */
+
+main {
+    background-color: #ececec;
+}
+
+.devs > h1 {
+    text-align: center;
+    font-size: 50pt;
+}
+
+.devs {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.devs {
+    height: 800px;
+}
+
+.devs > p {
+    margin-top: 25px;
+}
+
+.carousel-item > img {
+    height: 400px;
+}
