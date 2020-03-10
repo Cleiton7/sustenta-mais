@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+/* Seção devs (body) da pagina Sobre */
+
+body {
+    background-color: #ececec;
+}
+
 main{
     width: 100%;
     max-width: 85%;    
@@ -56,3 +62,71 @@ nav{
     align-items: flex-end;
 }
 
+
+
+.devs > h1 {
+    text-align: center;
+    font-size: 50pt;
+}
+
+.devs {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.devs {
+    height: 800px;
+}
+
+.devs > p {
+    margin-top: 25px;
+}
+
+.carousel-item > img {
+    height: 400px;
+}
+
+.card-body {
+    width: 25rem;
+    margin: 3% 0 0  10% ;
+    float: left; 
+
+}
+.card-title{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px){
+    .card-body {
+        width: 25rem;
+        float: left; 
+    }
+    .card-title{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    .card-body {
+        padding: 0;
+        width: 25%;
+        margin: 2%; 
+        float: left;
+    }
+    img{
+        width: 100%;
+    }
+    .card-title{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 425px){
+    
+    .card-body {
+        width: 100%;
+        float: left; 
+    }
+    .card-title{
+        text-align: center;
+    }
+}
