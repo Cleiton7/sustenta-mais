@@ -1,0 +1,45 @@
+
+.card-body {
+    width: 25rem;
+    margin: 3% 0 0  10% ;
+    float: left; 
+
+}
+.card-title{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px){
+    .card-body {
+        width: 25rem;
+        float: left; 
+    }
+    .card-title{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    .card-body {
+        padding: 0;
+        width: 25%;
+        margin: 2%; 
+        float: left;
+    }
+    img{
+        width: 100%;
+    }
+    .card-title{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 425px){
+    
+    .card-body {
+        width: 100%;
+        float: left; 
+    }
+    .card-title{
+        text-align: center;
+    }
+}
