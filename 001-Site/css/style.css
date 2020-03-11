@@ -58,7 +58,7 @@ nav{
     width: 40%;
     display: flex;
     flex-flow: row nowrap;  
-    justify-content: center;     
+    justify-content: space-around;     
     align-items: flex-end;
 }
 
@@ -70,12 +70,8 @@ nav{
 }
 
 .devs {
-    width: 80vw;
-    margin: 0 auto;
-}
-
-.devs {
-    height: 800px;
+    width: 100%;
+    margin: 0 auto;   
 }
 
 .devs > p {
@@ -85,7 +81,12 @@ nav{
 .carousel-item > img {
     height: 400px;
 }
-
+#cards{
+    display: flex;
+    flex-flow: row nowrap;  
+    justify-content: space-around; 
+    width: 100%;
+}
 .card-body {
     width: 25rem;
     margin: 3% 0 0  10% ;
@@ -96,7 +97,7 @@ nav{
     text-align: center;
 }
 
-@media only screen and (max-width: 1024px){
+/* @media only screen and (max-width: 1024px){
     .card-body {
         width: 25rem;
         float: left; 
@@ -129,4 +130,4 @@ nav{
     .card-title{
         text-align: center;
     }
-}
+} */
