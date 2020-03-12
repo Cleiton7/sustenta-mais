@@ -62,7 +62,12 @@ function validateForm() {
 
 }
 
-document.getElementById('btn-enviar-contato').addEventListener('click', () => {
+document.getElementById('btn-enviar-contato').addEventListener('click', (event) => {
 
-    validateForm();
+    if (validateForm()) {
+
+    } else {
+        event.preventDefault();
+    }
+
 });

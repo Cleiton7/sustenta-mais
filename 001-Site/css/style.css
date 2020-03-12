@@ -97,7 +97,7 @@ nav{
 
 .contato {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;  
 }
 
 .contato > div {
@@ -153,6 +153,15 @@ nav{
     width: 100%;
 }
 
+/* seção rodape */
+.rodape{
+    position: relative;
+    bottom: 0;
+}
+.rodape > nav {
+    border-radius: 50px 50px 0 0;
+}
+
 /* @media only screen and (max-width: 1024px){
     .card-body {
         width: 25rem;
@@ -188,8 +197,3 @@ nav{
     }
 } */
 
-/* seção rodape */
-
-.rodape > nav {
-    border-radius: 50px 50px 0 0;
-}

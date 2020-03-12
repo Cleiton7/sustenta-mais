@@ -80,80 +80,74 @@
 
         <div>
 
-        <div id="modal">
-            <div class="modal fade" id="modal-contato">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Fale Conosco</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <form>
-                                <div style="visibility: hidden" class="alert alert-success" role="alert-enviar"
-                                    id="alert-enviar">
-                                </div>
+            <div id="modal">
+                <div class="modal fade" id="modal-contato">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Fale Conosco</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div style="visibility: hidden" class="alert alert-success" role="alert-enviar"
+                                        id="alert-enviar">
+                                    </div>
 
-                                <div class="form-group">
-                                    <label for="nome-contato">Nome Completo*</label>
-                                    <input id="nome-contato" type="text" class="form-control"
-                                        placeholder="Digite seu nome...">
-                                    <div style="visibility: hidden" class="alert alert-danger" role="alert-name"
-                                        id="alert-name"></div>
-                                </div>
+                                    <div class="form-group">
+                                        <label for="nome-contato">Nome Completo*</label>
+                                        <input id="nome-contato" type="text" class="form-control"
+                                            placeholder="Digite seu nome...">
+                                        <div style="visibility: hidden" class="alert alert-danger" role="alert-name"
+                                            id="alert-name"></div>
+                                    </div>
 
-                                <div class="form-group">
-                                    <label for="email-contato">Email*</label>
-                                    <input type="email" class="form-control" id="email-contato"
-                                        aria-describedby="emailHelp" placeholder="Digite seu email...">
-                                    <div style="visibility: hidden" class="alert alert-danger" role="alert-email"
-                                        id="alert-email"></div>
-                                </div>
+                                    <div class="form-group">
+                                        <label for="email-contato">Email*</label>
+                                        <input type="email" class="form-control" id="email-contato"
+                                            aria-describedby="emailHelp" placeholder="Digite seu email...">
+                                        <div style="visibility: hidden" class="alert alert-danger" role="alert-email"
+                                            id="alert-email"></div>
+                                    </div>
 
-                                <div class="form-group">
-                                    <label for="tel-contato">Telefone</label>
-                                    <input id="tel-contato" type="text" class="form-control"
-                                        placeholder="Digite seu número para contato...">
-                                    <div style="visibility: hidden" class="alert alert-danger" role="alert-tel"
-                                        id="alert-name"></div>
-                                </div>
+                                    <div class="form-group">
+                                        <label for="tel-contato">Telefone</label>
+                                        <input id="tel-contato" type="text" class="form-control"
+                                            placeholder="Digite seu número para contato...">
+                                        <div style="visibility: hidden" class="alert alert-danger" role="alert-tel"
+                                            id="alert-name"></div>
+                                    </div>
 
-                                <div class="form-group">
-                                    <label for="msg-contato">Mensagem*</label>
-                                    <textarea placeholder="Mensagem..." class="form-control" id="msg-contato"
-                                        rows="3"></textarea>
-                                    <div style="visibility: hidden" class="alert alert-danger" role="alert-msg"
-                                        id="alert-msg"></div>
-                                </div>
+                                    <div class="form-group">
+                                        <label for="msg-contato">Mensagem*</label>
+                                        <textarea placeholder="Mensagem..." class="form-control" id="msg-contato"
+                                            rows="3"></textarea>
+                                        <div style="visibility: hidden" class="alert alert-danger" role="alert-msg"
+                                            id="alert-msg"></div>
+                                    </div>
 
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button id="btn-enviar-contato" type="button" class="btn btn-outline-success my-2 my-sm-0"
-                                data-toggle="modal" data-target="#modal-enviar">
-                                Enviar </button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="btn-enviar-contato" type="submit" class=" btn btn-outline-success my-2
+                                    my-sm-0" data-toggle="modal" data-target="#modal-enviar">
+                                    Enviar </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
 
-            <footer>
-                <nav class="navbar navbr-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#"><img src="/001-Site/img/sustenta+.PNG" width="110" alt=""></a>
-                    <a class="navbar-brand" href="a">Produtos</a>
-                    <a class="navbar-brand" href="a">Sobre Nós</a>
-                    <a class="navbar-brand" href="a">Contato</a>
-                    <div class="container">
-                        <!-- <div class="redes-sociais">
-                            <img src="img/instagram.png" alt="instagram">
-                            <img src="img/linkedin.png" alt="linkedin">
-                        </div> -->
-                    </div>
-                </nav>
-            </footer>
+                <footer class="rodape">
+                    <nav class="navbar navbr-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#"><img src="./img/sustenta+.PNG" width="110" alt=""></a>
+                        <a class="navbar-brand" href="a">Produtos</a>
+                        <a class="navbar-brand" href="a">Sobre Nós</a>
+                        <a class="navbar-brand" href="a">Contato</a>
+                    </nav>
+                </footer>
     </main>
 
     <script src="./js/script.js"></script>
