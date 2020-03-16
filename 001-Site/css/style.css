@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* Seção devs (body) da pagina Sobre */
+/* Seção Estilo geral das páginas */
 
 body {
     background-color: #ececec;
@@ -9,17 +9,42 @@ body {
 main{
     width: 100%;
     max-width: 85%;    
+    max-width: 1920px; 
     margin: 0 auto;   
     overflow: hidden;     
 }
 
-header{
-    background-color: #8BBA34 ;
-    height: 100px;
+button{    
+    display: inline-block;
+    font-weight: 400;
+    color: #000000;
+    box-shadow: 0 3px 0 0 #000000;
+    text-align: center;
+    cursor: pointer;     
+    background-color: transparent;
+    border: 1px solid #000000;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+button:hover{  
+    border: 1px solid #ffffff;        
+    color: #ffffff;
+    box-shadow: 0 3px 0 0 #ffffff;
+}
+
+/* Seção Estilo cabeçalho das páginas */
+header{    
+    width: 100%;
+    background: #8BBA34 ;
+    height: 120px;
     padding: 0.7em;
     display: flex;
+    align-items: center;
     flex-flow: row nowrap;
-    border-radius: 0 0 50px 50px;    
+    border-radius: 0 0 50px 50px;  
+    box-shadow: 0px 3px 2px 0 #777777; 
     justify-content: space-between;
 }
 
@@ -28,16 +53,21 @@ nav{
     flex-flow: row nowrap;    
     align-items: center; 
     justify-content: space-between;   
-    width: 100%;
-    position: fixed;
+    width: 100%;    
     overflow: hidden;
 }
 
-#menu-logo{
-    display: flex;
-    flex-flow: row nowrap;    
-    align-items: center;  
-    width: 25%;
+#menu-logo{      
+    width: 200px;
+    height: 200px;
+    background-image: url('../img/logos/logo_aberto_preto.png');
+    background-repeat: no-repeat;
+}
+#menu-logo:hover {       
+    width: 200px;
+    height: 200px;
+    background-image: url('../img/logos/logo_aberto_branco.png');
+    background-repeat: no-repeat;
 }
 
 #menu-central{
@@ -48,22 +78,52 @@ nav{
     align-items: center; 
     justify-content: flex-end; 
     justify-self: center;
-    width: 50%;
+    width: 65%;
 }
 #form-menu, #form-menu > input {
+    padding-top: 15px;
     width: 80%;
 }
 
+#form-menu > button{   
+    width: 50px;
+    height: 35px; 
+    background-image: url('../img/lupa_preta.png');
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+}
+#form-menu > button:hover{   
+    width: 50px;
+    height: 35px; 
+    background-image: url('../img/lupa_branca.png');
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+}
+
 #ul-menu{    
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-flow: row nowrap;  
     justify-content: space-around;     
     align-items: flex-end;
+    margin-right: 15%;
+    padding: 10px;
+}
+#ul-menu > li > a{
+    border-radius: 5px;   
+    color: #000000;   
+    font-size: 1.2em; 
+    padding: 0 20px 0 20px;
+}
+#ul-menu > li:hover a{      
+    color: #ffffff;
+    box-shadow: 0px 3px 0px 0 #ffffff;
 }
 
 
-
+/* Seção Estilo carrosel da pagina Sobre nós */
 .devs > h1 {
     text-align: center;
     font-size: 50pt;
@@ -81,6 +141,8 @@ nav{
 .carousel-item > img {
     height: 400px;
 }
+
+/* Seção Estilo cards da pagina Sobre nós */
 #cards{
     display: flex;
     flex-flow: row nowrap;  
@@ -93,7 +155,7 @@ nav{
     text-align: center;
 }
 
-/* estilização do Contato */
+/* Seção Estilo da pagina Contatos*/
 
 .contato {
     display: flex;
@@ -153,7 +215,7 @@ nav{
     width: 100%;
 }
 
-/* seção rodape */
+/* Seção Estilo rodapé das páginas */
 .rodape{
     position: relative;
     bottom: 0;
@@ -161,6 +223,9 @@ nav{
 .rodape > nav {
     border-radius: 50px 50px 0 0;
 }
+
+
+/* Responsividade */
 
 /* @media only screen and (max-width: 1024px){
     .card-body {
