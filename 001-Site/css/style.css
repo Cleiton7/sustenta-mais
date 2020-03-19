@@ -215,6 +215,23 @@ nav{
     width: 100%;
 }
 
+/* Seção Estilo da Pagina Politica de Privacidade */
+#politica{
+    width: 70%;
+    margin: 0 auto;
+}
+#politica > h1{
+    text-align: center;
+    font-size: 50pt;    
+}
+#politica > ol{
+    padding: 20px;
+    list-style-type: upper-roman;
+}
+#politica > ol >li{
+    padding: 5px;
+    text-align: justify;
+}
 /* Seção Estilo rodapé das páginas */
 .rodape{
     position: relative;
